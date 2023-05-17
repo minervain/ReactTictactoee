@@ -1,4 +1,4 @@
-<h1>RestApi Nedir?<h1>/
+<h1>RestApi?<h1>/
 
 <img src='https://res.cloudinary.com/practicaldev/image/fetch/s--YTDTEgpk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ekawmj3rafdtn06hzj79.png'/>
 <hr/>
@@ -30,3 +30,19 @@ API kullanımı bizi ilgili işlemin gerektireceği iş yükünden kurtarır. �
 API lar özel kullanıcı kitlelerine yönelik hazırlanırlar ve ilgili verileri hızlı bir şekilde oluşturmamızı sağlarlar. ( IMDB API, GitHub API ..)
 Platform bağımsız çalışırlar.
 Güncelleme durumunda bizim yapmamız gereken işlemler sınırlıdır.
+
+
+<h2>RestApi Nedir<h2>
+
+Representational state transfer; İlgili isteğe karşılık gelen verinin JSON / XML gibi dosya formatlarında gönderilmesidir. REST API, REST mimarisinin prensiplerine taşıyan API’lardır. Tüm prensiplerin karşılanması durumunda RESTful API olarak da adlandırılır.
+
+<img src='https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/rest-api/rest-api-nedir/figures/RestApi.png'/>
+Özetle, bir uygulamada gerçekleştirmek istediğimiz ek bir işlemi, o işlemi sağlayan başka bir uygulamadan API kullanarak gerçekleştirebiliriz.
+
+REST Prensipleri
+İstemci – Sunucu: (Client – Server)
+Tek Tip Arayüz: (Uniform Interface)
+Durumsuzluk: (Statelessness)
+Önbelleklenebilir: (Cacheable)
+Katmanlı Sistem: (Layered System)
+İsteğe Bağlı Kod: (Code On Demand - Optional)
